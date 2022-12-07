@@ -1,0 +1,31 @@
+
+
+Javas HashFunction
+
+[qiewuro][0]
+[ssrab][1][brass]
+[oflg][2][flog][golf]
+[equiye][0]
+[stair][1][stair]
+[arts][2][star][tsar]
+[ueenq][1][queen]
+[aaeilor][0]
+[plicablexe][1][explicable]
+My HashFUnction
+
+[qiewuro][0]
+[ssrab][1][brass]
+[oflg][2][flog][golf]
+[equiye][0]
+[stair][1][stair]
+[arts][2][star][tsar]
+[ueenq][1][queen]
+[aaeilor][0]
+[plicablexe][1][explicable]
+
+My program runtime: 0.06300 seconds
+Java program runtime: 0.11900 seconds
+
+Collisions  Count: 5728
+Java's Collision Count: 6176
+
