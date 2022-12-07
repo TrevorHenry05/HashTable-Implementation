@@ -28,12 +28,13 @@ public class Driver {
 	 * @throws IOException 
      */
     public static void main(String[] theArgs) throws IOException {
+    	String currDirectory = System.getProperty("user.dir");
     	BufferedWriter out = new BufferedWriter(new FileWriter("D:\\School\\Eclipse-workspace-external\\CodingProject3\\Resources\\Output.txt"));
 	
-        Scanner input1 = new Scanner(new FileInputStream("D:\\School\\Eclipse-workspace-external\\CodingProject3\\Resources\\input.txt"));
-        Scanner input2 = new Scanner(new FileInputStream("D:\\School\\Eclipse-workspace-external\\CodingProject3\\Resources\\words.txt"));
-        Scanner input3 = new Scanner(new FileInputStream("D:\\School\\Eclipse-workspace-external\\CodingProject3\\Resources\\words.txt"));
-        Scanner input4 = new Scanner(new FileInputStream("D:\\School\\Eclipse-workspace-external\\CodingProject3\\Resources\\input.txt"));
+        Scanner input1 = new Scanner(new FileInputStream(currDirectory + "\\Resources\\input.txt"));
+        Scanner input2 = new Scanner(new FileInputStream(currDirectory + "\\Resources\\words.txt"));
+        Scanner input3 = new Scanner(new FileInputStream(currDirectory + "\\Resources\\words.txt"));
+        Scanner input4 = new Scanner(new FileInputStream(currDirectory + "\\Resources\\input.txt"));
         
         
         //Test Java String HashFunction
